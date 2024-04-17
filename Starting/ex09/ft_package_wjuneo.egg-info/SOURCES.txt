@@ -1,0 +1,8 @@
+LICENSE
+README.md
+ft_odd_or_even.py
+pyproject.toml
+ft_package_wjuneo.egg-info/PKG-INFO
+ft_package_wjuneo.egg-info/SOURCES.txt
+ft_package_wjuneo.egg-info/dependency_links.txt
+ft_package_wjuneo.egg-info/top_level.txt

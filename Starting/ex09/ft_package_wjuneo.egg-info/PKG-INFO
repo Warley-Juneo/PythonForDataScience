@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ft_package_wjuneo
+Version: 0.0.1
+Summary: My first example package
+Author-email: Warley Juneo <wjuneo-f@student.42sp.org.br>
+Project-URL: Homepage, https://www.42sp.org.br/
+Project-URL: Issues, https://www.42sp.org.br/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# My First Package
+
+This is my first package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.

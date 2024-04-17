@@ -1,0 +1,18 @@
+[project]
+name = "ft_package_wjuneo"
+version = "0.0.1"
+authors = [
+    { name="Warley Juneo", email="wjuneo-f@student.42sp.org.br" },
+]
+description = "My first example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://www.42sp.org.br/"
+Issues = "https://www.42sp.org.br/"
