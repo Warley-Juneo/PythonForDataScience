@@ -1,30 +1,36 @@
 def is_even(num):
     return num % 2 == 0
 
+
 def is_positive(num):
     return num > 0
+
 
 def is_vowel(char):
     return char.lower() in 'aeiou'
 
+
 def is_none(item):
     return item is None
 
+
 def is_string(item):
     return isinstance(item, str)
-    
+
+
 def ft_filter(function, iterable):
     """
     Implementation of the filter() function using list comprehension
 
     Args:
-        function (callable): The function to be applied to the elements of the iterable
+        function (callable): The function to be applied to the elements of the
+         iterable
         iterable (list): The iterable to be filtered
 
     Returns:
         List: A new list with the elements that satisfy the condition
     """
-    
+
     for item in iterable:
         if function is None:
             if item:
@@ -32,8 +38,10 @@ def ft_filter(function, iterable):
         elif function(item):
             yield item
 
+
 if __name__ == "__main__":
-    print("Resultado da função \033[91mfilter()\033[0m em vermelho e da função \033[92mft_filter()\033[0m em verde:")
+    print("Resultado da função \033[91mfilter()\033[0m em vermelho e da \
+        função \033[92mft_filter()\033[0m em verde:")
 
     # Teste 1: Números pares em uma lista
     iterable = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -58,7 +66,7 @@ if __name__ == "__main__":
     print(f"\033[91m{list(result)}\033[0m")
     print(f"\033[92m{list(result1)}\033[0m")
     print()
-    
+
     # Teste 4: Valores None em uma lista
     iterable = [None, 1, None, 2, None, 3, None, 4, None, 5]
     result = filter(is_none, iterable)
