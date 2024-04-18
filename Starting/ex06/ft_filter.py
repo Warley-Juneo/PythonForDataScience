@@ -1,20 +1,65 @@
 def is_even(num):
+    """ Check if a number is even
+
+    Args:
+        num (int): The number to be checked
+
+    Returns:
+        bool: True if the number is even, False otherwise
+    """
     return num % 2 == 0
 
 
 def is_positive(num):
+    """Check if a number is positive
+
+    Args:
+        num (int): The number to be checked
+
+    Returns:
+        bool: True if the number is positive, False otherwise
+    """
+
     return num > 0
 
 
 def is_vowel(char):
+    """ Check if a character is a vowel
+
+    Args:
+        char (str): The character to be checked
+
+    Returns:
+        bool: True if the character is a vowel, False otherwise
+    """
+
     return char.lower() in 'aeiou'
 
 
 def is_none(item):
+    """
+    Check if an item is None
+
+    Args:
+        item (Any): The item to be checked
+
+    Returns:
+        bool: True if the item is None, False otherwise 
+    """
+
     return item is None
 
 
 def is_string(item):
+    """ Check if an item is a string
+
+    Args:
+        item (Any): The item to be checked
+
+    Returns:
+        bool: True if the item is a string, False otherwise
+    """
+
     return isinstance(item, str)
 
 

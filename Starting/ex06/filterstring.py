@@ -19,6 +19,10 @@ def filter_words(string, length):
 
 
 def main(*args):
+    """
+        Função principal que chama a função filter_words e imprime o resultado.
+    """
+
     try:
         if len(args) != 3:
             assert False, "the arguments are bad"
